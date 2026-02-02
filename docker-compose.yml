@@ -1,0 +1,11 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+    environment:
+      - USER_TOPICS_FILE=/app/data/user_topics.json
+      - TOPICS_FILE=/app/topics.json
+    volumes:
+      - ./topics.json:/app/topics.json
+      - ./data:/app/data

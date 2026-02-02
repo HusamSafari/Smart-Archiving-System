@@ -1,0 +1,14 @@
+[
+  {
+    "name": "work",
+    "hashtag": "#work",
+    "description": "Work related content",
+    "drive_folder_id": "YOUR_GOOGLE_DRIVE_FOLDER_ID"
+  },
+  {
+    "name": "marketing",
+    "hashtag": "#marketing",
+    "description": "Marketing content",
+    "drive_folder_id": "YOUR_GOOGLE_DRIVE_FOLDER_ID"
+  }
+]
